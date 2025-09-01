@@ -1032,22 +1032,33 @@ PRODUCT_PACKAGES += \
     libCB \
     libOpenCL \
     libVkLayer_q3dtools \
-    libadreno_app_profiles \
+    libacdb-fts \
+    libacdbloader \
+    libacdbrtac \
+    libadiertac \
     libadreno_utils \
     libadsp_default_listener \
     libadsprpc \
+    libaudcal \
     libc2d30_bltlib \
     libcdsp_default_listener \
     libcdsprpc \
+    libdiag \
     libfastcvdsp_stub \
     libfastcvopt \
     libgpudataproducer \
     libgsl \
+    libidl \
     libllvm-glnext \
     libllvm-qcom \
     libllvm-qgl \
     libmdsprpc \
     libmmosal_vendor \
+    libqmi_cci \
+    libqmi_common_so \
+    libqmi_csi \
+    libqmi_encdec \
+    libqmiservices \
     libscveCommon \
     libscveCommon_stub \
     libscveObjectSegmentation \
@@ -1310,10 +1321,7 @@ PRODUCT_PACKAGES += \
     libStDrvInt \
     libSuperSensor \
     libSuperSensorCPU \
-    libacdb-fts \
-    libacdbloader \
-    libacdbrtac \
-    libadiertac \
+    libadreno_app_profiles \
     libaidenoiser \
     libalCFR \
     libanc_dc_base \
@@ -1329,7 +1337,6 @@ PRODUCT_PACKAGES += \
     libasn1cper \
     libasn1crt \
     libasn1crtx \
-    libaudcal \
     libbatching \
     libbitmlengine \
     libbt-hidlclient \
@@ -1365,7 +1372,6 @@ PRODUCT_PACKAGES += \
     libconfigdb \
     libcpion \
     libdataitems \
-    libdiag \
     libdisp-aba \
     libdisplayfeature \
     libdisplayfeatureservice \
@@ -1390,7 +1396,6 @@ PRODUCT_PACKAGES += \
     libgps.utils \
     libhdr_tm \
     libhexagon_nn_stub \
-    libidl \
     libipebpsstriping \
     libizat_client_api \
     libizat_core \
@@ -1456,14 +1461,9 @@ PRODUCT_PACKAGES += \
     libqdp \
     libqisl \
     libqmi \
-    libqmi_cci \
     libqmi_client_helper \
     libqmi_client_qmux \
-    libqmi_common_so \
-    libqmi_csi \
-    libqmi_encdec \
     libqmi_legacy \
-    libqmiservices \
     libqrtr \
     libqseed3 \
     libqsocket \
