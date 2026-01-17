@@ -544,7 +544,11 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+<<<<<<< HEAD
     name: "libacdb-fts",
+=======
+    name: "libadreno_app_profiles",
+>>>>>>> 46a3a85 (spes: Clean up and update tree)
     owner: "xiaomi",
     strip: {
         none: true,
@@ -552,6 +556,7 @@ cc_prebuilt_library_shared {
     target: {
         android_arm: {
             srcs: [
+<<<<<<< HEAD
                 "proprietary/vendor/lib/libacdb-fts.so",
             ],
             shared_libs: [
@@ -563,6 +568,7 @@ cc_prebuilt_library_shared {
                 "libc",
                 "libm",
                 "libdl",
+=======
                 "proprietary/vendor/lib/libadreno_app_profiles.so",
             ],
             shared_libs: [
@@ -577,10 +583,12 @@ cc_prebuilt_library_shared {
                 "libc++",
                 "libc",
                 "libm",
+>>>>>>> 46a3a85 (spes: Clean up and update tree)
             ],
         },
         android_arm64: {
             srcs: [
+<<<<<<< HEAD
                 "proprietary/vendor/lib64/libacdb-fts.so",
             ],
             shared_libs: [
@@ -731,6 +739,7 @@ cc_prebuilt_library_shared {
                 "libc",
                 "libm",
                 "libdl",
+=======
                 "proprietary/vendor/lib64/libadreno_app_profiles.so",
             ],
             shared_libs: [
@@ -745,6 +754,7 @@ cc_prebuilt_library_shared {
                 "libc++",
                 "libc",
                 "libm",
+>>>>>>> 46a3a85 (spes: Clean up and update tree)
             ],
         },
     },
@@ -879,6 +889,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+<<<<<<< HEAD
     name: "libaudcal",
     owner: "xiaomi",
     strip: {
@@ -920,6 +931,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+=======
+>>>>>>> 46a3a85 (spes: Clean up and update tree)
     name: "libc2d30_bltlib",
     owner: "xiaomi",
     strip: {
@@ -1049,6 +1062,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+<<<<<<< HEAD
     name: "libdiag",
     owner: "xiaomi",
     strip: {
@@ -1088,6 +1102,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+=======
+>>>>>>> 46a3a85 (spes: Clean up and update tree)
     name: "libfastcvdsp_stub",
     owner: "xiaomi",
     strip: {
@@ -1254,6 +1270,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+<<<<<<< HEAD
     name: "libidl",
     owner: "xiaomi",
     strip: {
@@ -1289,6 +1306,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+=======
+>>>>>>> 46a3a85 (spes: Clean up and update tree)
     name: "libllvm-glnext",
     owner: "xiaomi",
     strip: {
@@ -1493,6 +1512,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+<<<<<<< HEAD
     name: "libqmi_cci",
     owner: "xiaomi",
     strip: {
@@ -1694,6 +1714,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+=======
+>>>>>>> 46a3a85 (spes: Clean up and update tree)
     name: "libscveCommon",
     owner: "xiaomi",
     strip: {
@@ -2609,6 +2631,35 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+<<<<<<< HEAD
+    name: "libOmxAacEnc",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libOmxAacEnc.so",
+            ],
+            shared_libs: [
+                "libutils",
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "32",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+=======
+>>>>>>> 46a3a85 (spes: Clean up and update tree)
     name: "libOmxAlacDec",
     owner: "xiaomi",
     strip: {
@@ -2690,6 +2741,35 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+<<<<<<< HEAD
+    name: "libOmxAmrEnc",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libOmxAmrEnc.so",
+            ],
+            shared_libs: [
+                "libutils",
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "32",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+=======
+>>>>>>> 46a3a85 (spes: Clean up and update tree)
     name: "libOmxAmrwbplusDec",
     owner: "xiaomi",
     strip: {
@@ -2824,6 +2904,35 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+<<<<<<< HEAD
+    name: "libOmxEvrcEnc",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libOmxEvrcEnc.so",
+            ],
+            shared_libs: [
+                "libutils",
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "32",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+=======
+>>>>>>> 46a3a85 (spes: Clean up and update tree)
     name: "libOmxG711Dec",
     owner: "xiaomi",
     strip: {
@@ -2851,6 +2960,36 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+<<<<<<< HEAD
+    name: "libOmxG711Enc",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libOmxG711Enc.so",
+            ],
+            shared_libs: [
+                "libutils",
+                "liblog",
+                "libcutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "32",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+=======
+>>>>>>> 46a3a85 (spes: Clean up and update tree)
     name: "libOmxMpeghDecSw",
     owner: "xiaomi",
     strip: {
@@ -2931,6 +3070,35 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+<<<<<<< HEAD
+    name: "libOmxQcelp13Enc",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libOmxQcelp13Enc.so",
+            ],
+            shared_libs: [
+                "libutils",
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "32",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+=======
+>>>>>>> 46a3a85 (spes: Clean up and update tree)
     name: "libOmxSwVdec",
     owner: "xiaomi",
     strip: {
@@ -2994,6 +3162,70 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+<<<<<<< HEAD
+    name: "libOmxVdec",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libOmxVdec.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libcutils",
+                "libion",
+                "libc2dcolorconvert",
+                "libqdMetaData",
+                "libplatformconfig",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "32",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libOmxVenc",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libOmxVenc.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libcutils",
+                "libplatformconfig",
+                "libion",
+                "libc2dcolorconvert",
+                "libqdMetaData",
+                "libfastcvopt",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "32",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+=======
+>>>>>>> 46a3a85 (spes: Clean up and update tree)
     name: "libOmxVideoDSMode",
     owner: "xiaomi",
     strip: {
@@ -9854,7 +10086,11 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+<<<<<<< HEAD
     name: "libadreno_app_profiles",
+=======
+    name: "libacdb-fts",
+>>>>>>> 46a3a85 (spes: Clean up and update tree)
     owner: "xiaomi",
     strip: {
         none: true,
@@ -9862,6 +10098,7 @@ cc_prebuilt_library_shared {
     target: {
         android_arm64: {
             srcs: [
+<<<<<<< HEAD
                 "proprietary/vendor/lib64/libadreno_app_profiles.so",
             ],
             shared_libs: [
@@ -9878,6 +10115,7 @@ cc_prebuilt_library_shared {
                 "libc++",
                 "libc",
                 "libm",
+=======
                 "proprietary/vendor/lib64/libacdb-fts.so",
             ],
             shared_libs: [
@@ -9978,6 +10216,7 @@ cc_prebuilt_library_shared {
                 "libc",
                 "libm",
                 "libdl",
+>>>>>>> 46a3a85 (spes: Clean up and update tree)
             ],
         },
     },
@@ -10374,6 +10613,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+<<<<<<< HEAD
+=======
     name: "libaudcal",
     owner: "xiaomi",
     strip: {
@@ -10401,6 +10642,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+>>>>>>> 46a3a85 (spes: Clean up and update tree)
     name: "libbatching",
     owner: "xiaomi",
     strip: {
@@ -11424,6 +11666,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+<<<<<<< HEAD
+=======
     name: "libdiag",
     owner: "xiaomi",
     strip: {
@@ -11450,6 +11694,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+>>>>>>> 46a3a85 (spes: Clean up and update tree)
     name: "libdisp-aba",
     owner: "xiaomi",
     strip: {
@@ -12153,6 +12398,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+<<<<<<< HEAD
+=======
     name: "libidl",
     owner: "xiaomi",
     strip: {
@@ -12177,6 +12424,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+>>>>>>> 46a3a85 (spes: Clean up and update tree)
     name: "libipebpsstriping",
     owner: "xiaomi",
     strip: {
@@ -14136,6 +14384,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+<<<<<<< HEAD
+=======
     name: "libqmi_cci",
     owner: "xiaomi",
     strip: {
@@ -14164,6 +14414,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+>>>>>>> 46a3a85 (spes: Clean up and update tree)
     name: "libqmi_client_helper",
     owner: "xiaomi",
     strip: {
@@ -14226,6 +14477,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+<<<<<<< HEAD
+=======
     name: "libqmi_common_so",
     owner: "xiaomi",
     strip: {
@@ -14306,6 +14559,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+>>>>>>> 46a3a85 (spes: Clean up and update tree)
     name: "libqmi_legacy",
     owner: "xiaomi",
     strip: {
@@ -14337,6 +14591,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+<<<<<<< HEAD
+=======
     name: "libqmiservices",
     owner: "xiaomi",
     strip: {
@@ -14362,6 +14618,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+>>>>>>> 46a3a85 (spes: Clean up and update tree)
     name: "libqrtr",
     owner: "xiaomi",
     strip: {
@@ -15467,6 +15724,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+<<<<<<< HEAD
+=======
     name: "libstfactory-vendor",
     owner: "xiaomi",
     strip: {
@@ -15500,6 +15759,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+>>>>>>> 46a3a85 (spes: Clean up and update tree)
     name: "libswregistrationalgo",
     owner: "xiaomi",
     strip: {
@@ -16255,7 +16515,11 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libbase",
+<<<<<<< HEAD
+                "libcrypto-v34",
+=======
                 "libcrypto",
+>>>>>>> 46a3a85 (spes: Clean up and update tree)
                 "liblog",
                 "libprotobuf-cpp-lite-3.9.1-vendorcompat",
                 "libstagefright_foundation",
@@ -20386,6 +20650,62 @@ android_app_import {
 }
 
 android_app_import {
+<<<<<<< HEAD
+	name: "ImsRcsService",
+	owner: "xiaomi",
+	apk: "proprietary/system_ext/app/ImsRcsService/ImsRcsService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	system_ext_specific: true,
+}
+
+android_app_import {
+	name: "QtiTelephonyService",
+	owner: "xiaomi",
+	apk: "proprietary/system_ext/app/QtiTelephonyService/QtiTelephonyService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	system_ext_specific: true,
+}
+
+android_app_import {
+	name: "uceShimService",
+	owner: "xiaomi",
+	apk: "proprietary/system_ext/app/uceShimService/uceShimService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	system_ext_specific: true,
+}
+
+android_app_import {
+	name: "WfdService",
+	owner: "xiaomi",
+	apk: "proprietary/system_ext/priv-app/WfdService/WfdService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	system_ext_specific: true,
+}
+
+android_app_import {
+	name: "dpmserviceapp",
+	owner: "xiaomi",
+	apk: "proprietary/system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	system_ext_specific: true,
+=======
     name: "QtiTelephonyService",
     owner: "xiaomi",
     apk: "proprietary/system_ext/app/QtiTelephonyService/QtiTelephonyService.apk",
@@ -20406,6 +20726,7 @@ android_app_import {
     },
     privileged: true,
     system_ext_specific: true,
+>>>>>>> 46a3a85 (spes: Clean up and update tree)
 }
 
 android_app_import {
@@ -20433,11 +20754,23 @@ android_app_import {
 }
 
 dex_import {
+<<<<<<< HEAD
+	name: "WfdCommon",
+	owner: "xiaomi",
+	jars: ["proprietary/system/framework/WfdCommon.jar"],
+}
+
+dex_import {
+	name: "tcmclient",
+	owner: "xiaomi",
+	jars: ["proprietary/system/framework/tcmclient.jar"],
+=======
     name: "tcmclient",
     owner: "xiaomi",
     jars: [
         "proprietary/system/framework/tcmclient.jar",
     ],
+>>>>>>> 46a3a85 (spes: Clean up and update tree)
 }
 
 dex_import {
@@ -20477,6 +20810,12 @@ dex_import {
 }
 
 dex_import {
+<<<<<<< HEAD
+	name: "vendor.qti.ims.connection-V1.0-java",
+	owner: "xiaomi",
+	jars: ["proprietary/system_ext/framework/vendor.qti.ims.connection-V1.0-java.jar"],
+	system_ext_specific: true,
+=======
     name: "dpmapi",
     owner: "xiaomi",
     jars: [
@@ -20519,6 +20858,7 @@ dex_import {
         "proprietary/system_ext/framework/vendor.qti.ims.connection-V1.0-java.jar",
     ],
     system_ext_specific: true,
+>>>>>>> 46a3a85 (spes: Clean up and update tree)
 }
 
 dex_import {
@@ -20602,7 +20942,108 @@ dex_import {
     system_ext_specific: true,
 }
 
+<<<<<<< HEAD
 dex_import {
+	name: "dpmapi",
+	owner: "xiaomi",
+	jars: ["proprietary/system_ext/framework/dpmapi.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "qcrilhook",
+	owner: "xiaomi",
+	jars: ["proprietary/system_ext/framework/qcrilhook.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "qti-telephony-common",
+	owner: "xiaomi",
+	jars: ["proprietary/system_ext/framework/qti-telephony-common.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.hardware.alarm-V1.0-java",
+	owner: "xiaomi",
+	jars: ["proprietary/system_ext/framework/vendor.qti.hardware.alarm-V1.0-java.jar"],
+	system_ext_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "android.hardware.gnss@2.1-service-qti",
+	owner: "xiaomi",
+	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.gnss@2.1-service-qti.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "android.hardware.keymaster@4.1-service-default-qti",
+	owner: "xiaomi",
+	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.keymaster@4.1-service-default-qti.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "android.hardware.neuralnetworks@1.3-service-qti",
+	owner: "xiaomi",
+	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-qti.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
+       name: "android.hardware.usb@1.2-service",
+       owner: "xiaomi",
+       src: "proprietary/vendor/etc/vintf/manifest/android.hardware.usb@1.2-service.xml",
+       filename_from_src: true,
+       sub_dir: "vintf/manifest",
+       soc_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "manifest_android.hardware.drm@1.3-service.widevine",
+	owner: "xiaomi",
+	src: "proprietary/vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "manifest_vendor.xiaomi.hardware.mlipay",
+	owner: "xiaomi",
+	src: "proprietary/vendor/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.mlipay.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "manifest_vendor.xiaomi.hardware.mtdservice",
+	owner: "xiaomi",
+	src: "proprietary/vendor/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.mtdservice.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "vendor.qti.gnss@4.0-service",
+	owner: "xiaomi",
+	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.gnss@4.0-service.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+=======
+prebuilt_etc {
     name: "vendor.qti.hardware.soter@1.0-service.rc",
     owner: "xiaomi",
     src: "proprietary/vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc",
@@ -22964,3 +23405,4 @@ cc_prebuilt_binary {
     prefer: true,
     system_ext_specific: true,
 }
+>>>>>>> 46a3a85 (spes: Clean up and update tree)
