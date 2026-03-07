@@ -384,7 +384,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/spes/proprietary/vendor/radio/qcril_database/upgrade/9_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/9_version_update_ecc_table.sql
 
 PRODUCT_PACKAGES += \
-     vendor.xiaomi.hardware.mtdservice@1.3 \
     vendor.qti.diaghal-V1-ndk \
     eglSubDriverAndroid \
     libEGL_adreno \

@@ -21,23 +21,6 @@ soong_namespace {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.xiaomi.hardware.mtdservice@1.3",
-	owner: "xiaomi",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/vendor.xiaomi.hardware.mtdservice@1.3.so"],
-			shared_libs: ["vendor.xiaomi.hardware.mtdservice@1.2", "vendor.xiaomi.hardware.mtdservice@1.1", "vendor.xiaomi.hardware.mtdservice@1.0", "libhidlbase", "libcutils", "liblog", "libutils", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "64",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "vendor.qti.diaghal-V1-ndk",
     owner: "xiaomi",
     strip: {
@@ -5231,7 +5214,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/camera/components/com.qti.node.mialgocontrol.so",
             ],
             shared_libs: [
-                "libpiex",
+                "libpiex_shim",
                 "libcamera_metadata",
                 "libchilog",
                 "libcutils",
@@ -11172,8 +11155,6 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmfido",
-    check_elf_files: false,
-    allow_undefined_symbols: true, 
     owner: "xiaomi",
     strip: {
         none: true,
@@ -11718,7 +11699,6 @@ cc_prebuilt_library_shared {
     },
     compile_multilib: "64",
     prefer: true,
-    check_elf_files: false,
     soc_specific: true,
 }
 
@@ -13793,8 +13773,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libstfactory-vendor.so",
             ],
             shared_libs: [
-                "libbase",
-		"libbase_shim",
+                "libbase_shim",
                 "libcutils",
                 "libutils",
                 "liblog",
@@ -14576,8 +14555,8 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libcrypto_shim",
-		"libcrypto",
                 "libbase",
+                "libcrypto",
                 "liblog",
                 "libprotobuf-cpp-lite-3.9.1-vendorcompat",
                 "libstagefright_foundation",
@@ -18946,8 +18925,7 @@ cc_prebuilt_binary {
                 "proprietary/vendor/bin/STFlashTool",
             ],
             shared_libs: [
-                "libbase",
-		"libbase_shim",
+                "libbase_shim",
                 "libcutils",
                 "libutils",
                 "liblog",
